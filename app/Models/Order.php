@@ -12,4 +12,9 @@ class Order extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function order_descriptions()
+    {
+        return $this->hasMany(OrderDescription::class);
+    }
 }

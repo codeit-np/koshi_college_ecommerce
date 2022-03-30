@@ -34,7 +34,7 @@
                                     <td>{{ $item->total }}</td>
 
                                     <td>
-                                        <a href="/order/{{ $item->id }}/edit" class="badge bg-info">Edit</a>
+                                        <a href="/order/{{ $item->id }}" class="badge bg-info">View</a>
                                     </td>
                                 </tr>
                             @endforeach
